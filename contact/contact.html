@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS file -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../index/style.css"> <!-- Link to your external CSS file -->
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="../index/index.html">Home</a></li>
+      <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+      <ul>
+        <li><a href="#artwork">Artwork</a></li>
+        <li><a href="#3d-rendering">3D Rendering</a></li>
+      </ul>
+      <li><a href="../contact/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+    <div id="contact">
+        <h1>Contact Me</h1>
+        <p>Reach out to me using the form below:</p>
+        <form action="/submit_contact" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+          <!-- Add other fields for email, message, etc. -->
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>
