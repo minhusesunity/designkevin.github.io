@@ -4,7 +4,10 @@
 
 body {
   background-color: black;
+  color: white;
+
 }
+
 
 
 .container {
@@ -13,6 +16,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh; /* Adjust the height as needed */
+  padding: 20px;
+  max-width: 100%;
+  
 }
 .slideshow-container {
     position: relative;
