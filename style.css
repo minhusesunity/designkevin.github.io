@@ -2,6 +2,11 @@
 
 /* Your CSS styles here */
 
+body {
+  background-color: black;
+}
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -34,9 +39,9 @@
   
   /* Style the navigation bar */
   nav {
-    background-color: #e30000;
+    background-color: #000000;
     color: white;
-    text-align: right; /* Align the text to the right */
+    text-align: center; /* Align the text to the right */
   }
   
   nav ul {

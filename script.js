@@ -24,4 +24,4 @@ function nextSlide() {
 
 // Call the function to show the initial slide and start transitioning
 showSlide(currentSlide);
-setInterval(nextSlide, 1000); // Change slide every 6 seconds
+setInterval(nextSlide, 2000); // Change slide every 6 seconds
